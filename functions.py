@@ -1,6 +1,4 @@
-
 # QuickMart Billing System
-# User Defined Functions
 
 # Task 1: Line total
 def line_total(item):

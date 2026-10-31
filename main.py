@@ -1,8 +1,6 @@
 
 # QuickMart Billing System
-# Main Program
 
-# Import user-defined functions
 from functions import (
     line_total,
     subtotal,
@@ -13,7 +11,6 @@ from functions import (
     print_bill
 )
 
-# Starter Data
 cart = [
     {"name": "Notebook", "category": "Stationery", "price": 40, "qty": 5},
     {"name": "Pen", "category": "Stationery", "price": 10, "qty": 11},
@@ -22,7 +19,6 @@ cart = [
     {"name": "Chips", "category": "Snacks", "price": 20, "qty": 6}
 ]
 
-# Main Function
 def main():
 
     # Task 1: Line Total
@@ -76,6 +72,5 @@ def main():
 
     print("All tests passed")
 
-# Calling Main Function
 if __name__ == "__main__":
     main()
